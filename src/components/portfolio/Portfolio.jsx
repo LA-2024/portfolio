@@ -1,11 +1,12 @@
 import { useRef } from "react";
 import "./portfolio.scss";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 const items = [
   {
     id: 1,
-    title: "React Commerce",
+    title: 't(projects.p1.title)',
     img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
   },
@@ -29,8 +30,9 @@ const items = [
   },
 ];
 
-const Single = ({ item }) => {
+const Single = ({ item, id }) => {
   const ref = useRef();
+  const [t, i18n] = useTranslation('global')
 
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -45,10 +47,10 @@ const Single = ({ item }) => {
           <div className="imageContainer" ref={ref}>
             <img src={item.img} alt="" />
           </div>
-          <motion.div className="textContainer" style={{y}}>
-            <h2>{item.title}</h2>
-            <p>{item.desc}</p>
-            <button>See Demo</button>
+          <motion.div className="textContainer" style={{ y }}>
+            <h2>{t(`projects.p${id}.title`)}</h2>
+            <p>{t(`projects.p${id}.desc`)}</p>
+            <button>{t(`projects.p${id}.btn`)}</button>
           </motion.div>
         </div>
       </div>
@@ -57,6 +59,7 @@ const Single = ({ item }) => {
 };
 
 const Portfolio = () => {
+  const [t, i18n] = useTranslation('global')
   const ref = useRef();
 
   const { scrollYProgress } = useScroll({
@@ -76,7 +79,7 @@ const Portfolio = () => {
         <motion.div style={{ scaleX }} className="progressBar"></motion.div>
       </div>
       {items.map((item) => (
-        <Single item={item} key={item.id} />
+        <Single key={item.id} item={item} id={item.id} />
       ))}
     </div>
   );

@@ -1,9 +1,66 @@
 {
+    "type": "fr",
     "home": {
         "hero": {
-            "title": "Développeur web et designer d'interface utilisateur",
-            "btn1": "Mon dernier travail",
+            "title": "Développeur Web et designer UI",
+            "btn1": "Mes derniers travaux",
             "btn2": "Contactez-moi"
         }
+    },
+    "paralexe": {
+        "p1": "Ce que nous faisons",
+        "p2": "Ce que nous avons fait"
+    },
+    "services": {
+        "title": {
+            "p1": "Idées uniques pour",
+            "p2": " votre entreprise."
+        },
+        "btn": "QUE FAISONS-NOUS ?",
+        "listContainer": {
+            "box1": {
+                "h2": "Conception",
+                "p": "Explorez mon portfolio où je donne forme à des visions en réalité en utilisant UML ou MERISE, dénouant des systèmes complexes en plans élégants pour le succès.",
+                "btn": "Aller"
+            },
+            "box2": {
+                "h2": "Design",
+                "p": "Plongez dans des designs captivants conçus avec précision à l'aide de Figma, Canva ou Adobe Photoshop, là où la créativité rencontre la fonctionnalité de manière transparente.",
+                "btn": "Aller"
+            },
+            "box3": {
+                "h2": "Programmation",
+                "p": "Parcourez des paysages web dynamiques rendus vivants grâce à une programmation méticuleuse, là où l'innovation et l'expérience utilisateur convergent pour des solutions numériques percutantes.",
+                "btn": "Aller"
+            }
+        }
+    },
+    "projects": {
+        "p1": {
+            "title": "Commerce électronique",
+            "desc": "Les plateformes de commerce électronique révolutionnent le commerce de détail, fournissant un marché numérique pour les entreprises afin de présenter et de vendre des produits dans le monde entier, offrant commodité, variété et transactions sécurisées, remodelant les habitudes des consommateurs et donnant aux entrepreneurs une portée mondiale et une évolutivité.",
+            "btn": "voir plus"
+        },
+        "p2": {
+            "title": "Blog",
+            "desc": "Les blogs servent de journaux numériques, des plateformes pour partager des réflexions, des expertises et des expériences, favorisant l'engagement communautaire, la discussion et le partage des connaissances sur des sujets divers, enrichissant la vie des lecteurs et connectant les gens à travers le monde grâce à des récits et à des échanges d'informations.",
+            "btn": "voir plus"
+        },
+        "p3": {
+            "title": "Multi-vendeurs",
+            "desc": "Les plateformes multi-vendeurs permettent à divers vendeurs de converger, offrant un marché complet pour les consommateurs, proposant une large gamme de produits et de services, favorisant la concurrence, l'innovation et le choix, enrichissant l'expérience d'achat en ligne et soutenant l'entrepreneuriat et la croissance économique.",
+            "btn": "voir plus"
+        },
+        "p4": {
+            "title": "Portfolio",
+            "desc": "Dans ce portfolio de projets web, explorez une collection diversifiée de projets mettant en valeur l'expertise en design, développement et innovation. Chaque projet incarne la créativité, la fonctionnalité et le design centré sur l'utilisateur, reflétant un engagement envers l'excellence et la satisfaction du client.",
+            "btn": "voir plus"
+        }
+    },
+    "contact": {
+        "title": "Travaillons ensemble",
+        "mail": "Mail",
+        "phone": "Téléphone",
+        "address": "Adresse"
     }
 }

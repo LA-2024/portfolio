@@ -6,8 +6,6 @@ import Parallax from "./components/Parallax/Parallax"
 import Contact from "./components/contact/Contact"
 import Protofolio from "./components/portfolio/Portfolio"
 import Services from "./components/services/Services"
-import Lottie from 'lottie-react'
-import groovyWalkAnimation from "./../public/a.json"
 
 
 function App() {
@@ -16,7 +14,6 @@ function App() {
     <>
       <section id="Home%20Page">
         <Navbar />
-        {/* <Lottie className='animation' animationData={groovyWalkAnimation} loop={true} /> */}
         <Hero />
       </section>
       <section id="About%20Us">

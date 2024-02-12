@@ -110,6 +110,24 @@
         font-weight: 500;
 
       }
+
+      .check {
+        border-radius: 5px;
+        width: 220px;
+        height: 30px;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        background-color: #2B3246;
+        cursor: pointer;
+        color: #0ad406;
+      }
+
+      .check:hover {
+        background-color: rgba(147, 209, 117, 0.50);
+        transition: 0.5s;
+      }
     }
   }
 }

@@ -11,7 +11,10 @@
         "p2": "Whta We Did"
     },
     "services": {
-        "title": "Unique Ideas For Your Business.",
+        "title": {
+            "p1": "Unique Ideas",
+            "p2": "For Your Business."
+        },
         "btn": "WHAT WE DO?",
         "listContainer": {
             "box1": {
@@ -20,13 +23,13 @@
                 "btn": "Go"
             },
             "box2": {
-                "h2": "Conception",
-                "p": "Explore my portfolio where I shape visions into reality using UML or MERISE, unraveling complex systems into elegant blueprints for success.",
+                "h2": "Design",
+                "p": "Delve into captivating designs crafted with precision using Figma, Canva, or Adobe Photoshop, where creativity meets functionality seamlessly.",
                 "btn": "Go"
             },
             "box3": {
-                "h2": "Conception",
-                "p": "Explore my portfolio where I shape visions into reality using UML or MERISE, unraveling complex systems into elegant blueprints for success.",
+                "h2": "Programmation",
+                "p": "Journey through dynamic web landscapes brought to life through meticulous programming, where innovation and user experience converge for impactful digital solutions.",
                 "btn": "Go"
             }
         }
@@ -34,22 +37,22 @@
     "projects": {
         "p1": {
             "title": "E-Commerce",
-            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+            "desc": "E-Commerce platforms revolutionize retail, providing a digital marketplace for businesses to showcase and sell products worldwide, offering convenience, variety, and secure transactions, reshaping consumer habits and empowering entrepreneurs with global reach and scalability.",
             "btn": "see more"
         },
         "p2": {
             "title": "Blog",
-            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+            "desc": "Blogs serve as digital diaries, platforms for sharing thoughts, expertise, and experiences, fostering community engagement, discussion, and knowledge sharing across diverse topics, enriching readers' lives and connecting people globally through storytelling and information exchange.",
             "btn": "see more"
         },
         "p3": {
             "title": "Multi-verndors",
-            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+            "desc": "Multi-vendor platforms empower diverse sellers to converge, offering a comprehensive marketplace for consumers, featuring a wide array of products and services, fostering competition, innovation, and choice, enriching the online shopping experience and supporting entrepreneurship and economic growth.",
             "btn": "see more"
         },
         "p4": {
             "title": "Portfolio",
-            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+            "desc": "In this web project portfolio, explore a diverse collection of projects showcasing expertise in design, development, and innovation. Each project embodies creativity, functionality, and user-centric design, reflecting a commitment to excellence and client satisfaction.",
             "btn": "see more"
         }
     },

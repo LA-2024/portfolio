@@ -1,6 +1,7 @@
-import { useRef } from "react";
 import "./services.scss";
+import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
+import { useTranslation } from 'react-i18next'
 
 const variants = {
   initial: {
@@ -23,14 +24,14 @@ const Services = () => {
   const ref = useRef();
 
   const isInView = useInView(ref, { margin: "-100px" });
+  //translation
+  const [t, i18n] = useTranslation('global')
 
   return (
     <motion.div
       className="services"
       variants={variants}
       initial="initial"
-      // animate="animate"
-      // whileInView="animate"
       ref={ref}
       animate={"animate"}
     >
@@ -45,14 +46,14 @@ const Services = () => {
         <div className="title">
           <img src="./people.webp" alt="" />
           <h1>
-            <motion.b whileHover={{ color: "rgb(0, 68, 255)" }}>Unique</motion.b> Ideas
+            <motion.b whileHover={{ color: "rgb(0, 68, 255)" }}>{t('services.title.p1')}</motion.b>
           </h1>
         </div>
         <div className="title">
           <h1>
-            <motion.b whileHover={{ color: "rgb(0, 68, 255)" }}>For Your</motion.b> Business.
+            <motion.b whileHover={{ color: "rgb(0, 68, 255)" }}>{t('services.title.p2')}</motion.b>
           </h1>
-          <button>WHAT WE DO?</button>
+          <button>{t('services.btn')}</button>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
@@ -60,31 +61,31 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Conception</h2>
+          <h2>{t('services.listContainer.box1.h2')}</h2>
           <p>
-            Explore my portfolio where I shape visions into reality using UML or MERISE, unraveling complex systems into elegant blueprints for success.
+            {t('services.listContainer.box1.p')}
           </p>
-          <button>Go</button>
+          <button>{t('services.listContainer.box1.btn')}</button>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Design</h2>
+          <h2>{t('services.listContainer.box2.h2')}</h2>
           <p>
-            Delve into captivating designs crafted with precision using Figma, Canva, or Adobe Photoshop, where creativity meets functionality seamlessly.
+            {t('services.listContainer.box2.p')}
           </p>
-          <button>Go</button>
+          <button>{t('services.listContainer.box2.btn')}</button>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Programmation</h2>
+          <h2>{t('services.listContainer.box3.h2')}</h2>
           <p>
-            Journey through dynamic web landscapes brought to life through meticulous programming, where innovation and user experience converge for impactful digital solutions.
+            {t('services.listContainer.box3.p')}
           </p>
-          <button>Go</button>
+          <button>{t('services.listContainer.box1.btn')}</button>
         </motion.div>
       </motion.div>
     </motion.div>
