@@ -1,0 +1,88 @@
+html {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    transition: 2s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM sans', sans-serif;
+}
+
+body {
+    background-color: #0c0c1d;
+    color: aliceblue;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(65, 28, 138);
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+section {
+    height: 100vh;
+    scroll-snap-align: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+
+    .animation {
+        position: absolute;
+        right: 0;
+        width: 100%;
+        top: -15rem;
+        z-index: 1;
+        opacity: 0.3;
+
+        @media(max-width: 450px) {
+            display: none;
+        }
+
+        @media(max-width: 1024px) {
+            bottom: 0;
+        }
+    }
+}
+
+.course {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+section:last-child {
+    min-height: 100ch;
+}
+
+// responsive
+@mixin sm {
+    @media(max-width: 600px) {
+        @content;
+    }
+}
+
+@mixin md {
+    @media(max-width:992px) {
+        @content;
+    }
+}

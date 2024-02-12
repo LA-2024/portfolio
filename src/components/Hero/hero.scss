@@ -1,0 +1,120 @@
+@import './../../app.scss';
+
+.hero {
+    z-index: 1;
+
+    height: calc(100vh - 75px);
+    background: linear-gradient(180deg, #0c0c1d, #111132);
+    overflow: hidden;
+
+    .wrapper {
+        max-width: 1200px;
+        margin: auto;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 1rem;
+        position: relative;
+        z-index: 1;
+
+        @include sm {
+            flex-direction: column;
+            padding: 3rem 0;
+        }
+
+        .content {
+
+            z-index: 20;
+
+            h2 {
+                color: orange;
+                letter-spacing: 3px;
+                margin-bottom: 1.5rem;
+                font-size: 2rem;
+
+                @include sm {
+                    margin: 2rem 0;
+                    font-size: 1.5rem;
+                    text-align: center;
+                }
+
+                @include md {
+                    font-size: 20px;
+                }
+            }
+
+            h1 {
+                font-size: 4rem;
+                margin-bottom: 1.5rem;
+
+                @include sm {
+                    font-size: 2rem;
+                    text-align: center;
+                }
+
+                @include md {
+                    font-size: 40px;
+                }
+            }
+
+            .btns {
+                z-index: 20;
+
+                @include sm {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 2rem 0;
+                }
+
+                button {
+                    margin-left: 0.5rem;
+                    padding: 0.5rem 1rem;
+                    border-radius: 8px;
+                    border: white solid 2px;
+                    background-color: transparent;
+                    color: white;
+                    margin: 0.2rem;
+                    transition: 0.7s ease;
+                }
+
+                button:hover {
+                    background-color: white;
+                    color: rgb(0, 0, 0);
+                }
+
+            }
+
+            i {
+                margin: 1.5rem 0.3rem;
+                font-size: 1.5rem;
+
+                @include sm {
+                    width: 20px;
+                    display: block;
+                    margin: auto;
+                }
+            }
+        }
+
+
+
+        .imageWrapper {
+            height: 70%;
+            max-height: 400px;
+            transform: scaleX(-1);
+            z-index: 20;
+
+            @include sm {
+                width: max-content;
+                margin: auto;
+                height: auto;
+            }
+
+            @include md {
+                max-height: 300px;
+            }
+        }
+    }
+}

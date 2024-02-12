@@ -1,0 +1,76 @@
+@import './../../app.scss';
+
+.parallax {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transition-duration: 2s;
+
+    h1 {
+        font-size: 5rem;
+        z-index: 1;
+
+        @include sm {
+            font-size: 3rem;
+        }
+
+        @include md {
+            font-size: 3rem;
+        }
+    }
+
+    div {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+
+        @include sm {
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        @include md {
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    }
+
+    .mountans {
+        background-image: url('./mountains.png');
+        z-index: 3;
+
+        @include sm {
+            height: 30vh;
+            bottom: -40px;
+        }
+
+        @include md {
+            display: none;
+        }
+
+    }
+
+    .moons {
+        background-image: url('./sun.png');
+        z-index: 2;
+
+        @include sm {
+            height: 50vh;
+        }
+
+    }
+
+    .stars {
+        background-image: url('./stars.png');
+        background-repeat: repeat;
+
+        @include sm {
+            background-size: 50%;
+        }
+    }
+}
