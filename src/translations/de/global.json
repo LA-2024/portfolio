@@ -1,0 +1,65 @@
+{
+    "home": {
+        "hero": {
+            "title": "Webentwickler und UI-Designer",
+            "btn1": "Meine neuesten Arbeiten",
+            "btn2": "Kontaktieren Sie mich"
+        }
+    },
+    "paralexe": {
+        "p1": "Was wir tun",
+        "p2": "Was wir gemacht haben"
+    },
+    "services": {
+        "title": {
+            "p1": "Einzigartige Ideen",
+            "p2": "Für Ihr Unternehmen."
+        },
+        "btn": "WAS WIR TUN?",
+        "listContainer": {
+            "box1": {
+                "h2": "Konzeption",
+                "p": "Erkunden Sie mein Portfolio, in dem ich Visionen mit UML oder MERISE in die Realität umsetze und komplexe Systeme in elegante Blaupausen für Erfolg entwirre.",
+                "btn": "Los"
+            },
+            "box2": {
+                "h2": "Design",
+                "p": "Tauchen Sie ein in faszinierende Designs, die mit Präzision und Kreativität mit Figma, Canva oder Adobe Photoshop erstellt wurden, wo Kreativität nahtlos auf Funktionalität trifft.",
+                "btn": "Los"
+            },
+            "box3": {
+                "h2": "Programmierung",
+                "p": "Begleiten Sie mich durch dynamische Weblandschaften, die durch akribische Programmierung zum Leben erweckt werden, wo Innovation und Benutzererfahrung für wirkungsvolle digitale Lösungen zusammenkommen.",
+                "btn": "Los"
+            }
+        }
+    },
+    "projects": {
+        "p1": {
+            "title": "E-Commerce",
+            "desc": "E-Commerce-Plattformen revolutionieren den Einzelhandel und bieten einen digitalen Marktplatz für Unternehmen, um Produkte weltweit zu präsentieren und zu verkaufen. Sie bieten Bequemlichkeit, Vielfalt und sichere Transaktionen, verändern das Konsumverhalten und ermöglichen Unternehmern eine globale Reichweite und Skalierbarkeit.",
+            "btn": "Mehr sehen"
+        },
+        "p2": {
+            "title": "Blog",
+            "desc": "Blogs dienen als digitale Tagebücher und Plattformen zum Teilen von Gedanken, Fachwissen und Erfahrungen. Sie fördern die Beteiligung der Gemeinschaft, Diskussionen und den Austausch von Wissen zu verschiedenen Themen, bereichern das Leben der Leser und verbinden Menschen weltweit durch Geschichtenerzählung und Informationsaustausch.",
+            "btn": "Mehr sehen"
+        },
+        "p3": {
+            "title": "Multi-Verkäufer",
+            "desc": "Multi-Verkäufer-Plattformen ermöglichen es verschiedenen Verkäufern, sich zu versammeln und bieten einen umfassenden Marktplatz für Verbraucher mit einer breiten Palette von Produkten und Dienstleistungen. Sie fördern Wettbewerb, Innovation und Auswahl, bereichern das Online-Shopping-Erlebnis und unterstützen Unternehmertum und wirtschaftliches Wachstum.",
+            "btn": "Mehr sehen"
+        },
+        "p4": {
+            "title": "Portfolio",
+            "desc": "In diesem Webprojektportfolio erkunden Sie eine vielfältige Sammlung von Projekten, die Fachwissen in Design, Entwicklung und Innovation zeigen. Jedes Projekt verkörpert Kreativität, Funktionalität und benutzerzentriertes Design und spiegelt ein Engagement für Exzellenz und Kundenzufriedenheit wider.",
+            "btn": "Mehr sehen"
+        }
+    },
+    "contact": {
+        "title": "Lass uns zusammenarbeiten",
+        "mail": "E-Mail",
+        "phone": "Telefon",
+        "address": "Adresse"
+    }
+}

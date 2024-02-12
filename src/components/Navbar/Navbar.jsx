@@ -25,6 +25,7 @@ function Navbar() {
                         <option value="en"><i class="fab fa-html5"></i> English</option>
                         <option value="fr"><i class="fab fa-css3"></i> Français</option>
                         <option value="es"><i class="fab fa-js"></i> Español</option>
+                        <option value="de"><i class="fab fa-js"></i> German</option>
                     </select>
                 </div>
             </nav>

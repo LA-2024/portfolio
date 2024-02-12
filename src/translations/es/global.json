@@ -1,0 +1,65 @@
+{
+    "home": {
+        "hero": {
+            "title": "Desarrollador web y diseñador de UI",
+            "btn1": "Mi Último Trabajo",
+            "btn2": "Contáctame"
+        }
+    },
+    "paralexe": {
+        "p1": "Lo Que Hacemos",
+        "p2": "Lo Que Hicimos"
+    },
+    "services": {
+        "title": {
+            "p1": "Ideas Únicas",
+            "p2": "Para Tu Negocio."
+        },
+        "btn": "¿QUÉ HACEMOS?",
+        "listContainer": {
+            "box1": {
+                "h2": "Concepción",
+                "p": "Explora mi portafolio donde doy forma a visiones en realidad utilizando UML o MERISE, desentrañando sistemas complejos en elegantes planos para el éxito.",
+                "btn": "Ir"
+            },
+            "box2": {
+                "h2": "Diseño",
+                "p": "Sumérgete en diseños cautivadores elaborados con precisión utilizando Figma, Canva o Adobe Photoshop, donde la creatividad se encuentra con la funcionalidad de manera perfecta.",
+                "btn": "Ir"
+            },
+            "box3": {
+                "h2": "Programación",
+                "p": "Viaja a través de paisajes web dinámicos cobrando vida a través de una programación meticulosa, donde la innovación y la experiencia del usuario convergen para soluciones digitales impactantes.",
+                "btn": "Ir"
+            }
+        }
+    },
+    "projects": {
+        "p1": {
+            "title": "Comercio Electrónico",
+            "desc": "Las plataformas de comercio electrónico revolucionan el comercio minorista, proporcionando un mercado digital para que las empresas muestren y vendan productos en todo el mundo, ofreciendo conveniencia, variedad y transacciones seguras, remodelando hábitos de consumo y empoderando a los empresarios con alcance y escalabilidad global.",
+            "btn": "ver más"
+        },
+        "p2": {
+            "title": "Blog",
+            "desc": "Los blogs sirven como diarios digitales, plataformas para compartir pensamientos, experiencia y experiencias, fomentando la participación comunitaria, la discusión y el intercambio de conocimientos sobre diversos temas, enriqueciendo la vida de los lectores y conectando a las personas a nivel mundial a través de narrativas e intercambio de información.",
+            "btn": "ver más"
+        },
+        "p3": {
+            "title": "Multi-vendedores",
+            "desc": "Las plataformas de múltiples vendedores empoderan a diversos vendedores para converger, ofreciendo un mercado integral para los consumidores, con una amplia variedad de productos y servicios, fomentando la competencia, la innovación y la elección, enriqueciendo la experiencia de compra en línea y apoyando el espíritu empresarial y el crecimiento económico.",
+            "btn": "ver más"
+        },
+        "p4": {
+            "title": "Portafolio",
+            "desc": "En este portafolio de proyectos web, explora una colección diversa de proyectos que muestran experiencia en diseño, desarrollo e innovación. Cada proyecto encarna creatividad, funcionalidad y diseño centrado en el usuario, reflejando un compromiso con la excelencia y la satisfacción del cliente.",
+            "btn": "ver más"
+        }
+    },
+    "contact": {
+        "title": "Trabajemos Juntos",
+        "mail": "Correo",
+        "phone": "Teléfono",
+        "address": "Dirección"
+    }
+}
