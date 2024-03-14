@@ -40,7 +40,7 @@
     }
 
     .mountans {
-        background-image: url("./mountains.png");
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/mern-real-estat.appspot.com/o/mountains.png?alt=media&token=c8d4b7fb-ff98-491e-a29a-5f59d6a0c3f1");
 
 
         @include sm {
@@ -55,7 +55,7 @@
     }
 
     .moons {
-        background-image: url('./sun.png');
+        background-image: url('https://firebasestorage.googleapis.com/v0/b/mern-real-estat.appspot.com/o/sun.png?alt=media&token=16b0cb4d-011a-43d8-b775-5986b28fd56a');
 
         @include sm {
             height: 50vh;
@@ -64,7 +64,7 @@
     }
 
     .stars {
-        background-image: url('./stars.png');
+        background-image: url('https://firebasestorage.googleapis.com/v0/b/mern-real-estat.appspot.com/o/stars.png?alt=media&token=13907032-f951-4fa8-acf6-9a5035da8bbf');
         background-repeat: repeat;
 
         @include sm {
