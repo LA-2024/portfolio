@@ -40,7 +40,7 @@
     }
 
     .mountans {
-        background-image: url('./mountains.png') bottom center;
+        background-image: url("./mountains.png");
 
 
         @include sm {

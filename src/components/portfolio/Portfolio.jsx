@@ -7,26 +7,26 @@ const items = [
   {
     id: 1,
     title: 't(projects.p1.title)',
-    img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    img: "https://firebasestorage.googleapis.com/v0/b/mern-real-estat.appspot.com/o/connect.png?alt=media&token=832ec7cd-ff93-46d7-8198-0bc5b60e6fca",
+    desc: 't(projects.p1.desc)',
   },
   {
     id: 2,
-    title: "Next.js Blog",
-    img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: 't(projects.p2.title)',
+    img: "https://firebasestorage.googleapis.com/v0/b/mern-real-estat.appspot.com/o/blog.png?alt=media&token=dc13b001-c4c8-45b9-b4d9-143d87c993b9",
+    desc: 't(projects.p2.desc)',
   },
   {
     id: 3,
-    title: "Vanilla JS App",
-    img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: 't(projects.p3.title)',
+    img: "https://firebasestorage.googleapis.com/v0/b/mern-real-estat.appspot.com/o/multivendur.png?alt=media&token=94df57ee-046b-4b10-a630-c6db6ad47dad",
+    desc: 't(projects.p3.desc)',
   },
   {
     id: 4,
-    title: "Music App",
-    img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: 't(projects.p4.title)',
+    img: "https://firebasestorage.googleapis.com/v0/b/mern-real-estat.appspot.com/o/portofolio.png?alt=media&token=3e00fb03-2eca-4f14-b473-16c130fe7882",
+    desc: 't(projects.p4.desc)',
   },
 ];
 
