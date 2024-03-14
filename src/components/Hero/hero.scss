@@ -16,7 +16,6 @@
         align-items: center;
         padding: 0 1rem;
         position: relative;
-        z-index: 1;
 
         @include sm {
             flex-direction: column;
@@ -24,8 +23,6 @@
         }
 
         .content {
-
-            z-index: 20;
 
             h2 {
                 color: orange;
@@ -59,8 +56,6 @@
             }
 
             .btns {
-                z-index: 20;
-
                 @include sm {
                     display: flex;
                     justify-content: center;
@@ -104,7 +99,6 @@
             height: 70%;
             max-height: 400px;
             transform: scaleX(-1);
-            z-index: 20;
 
             @include sm {
                 width: max-content;

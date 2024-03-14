@@ -9,7 +9,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 100;
+    z-index: 1000;
 
     .bg {
         position: fixed;
@@ -44,7 +44,7 @@
     }
 
     .toggle_btn {
-        z-index: 30;
+
         width: 50px;
         height: 50px;
         border-radius: 50%;

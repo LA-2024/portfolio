@@ -12,7 +12,6 @@
 
     h1 {
         font-size: 5rem;
-        z-index: 1;
 
         @include sm {
             font-size: 3rem;
@@ -42,7 +41,7 @@
 
     .mountans {
         background-image: url('./mountains.png');
-        z-index: 3;
+
 
         @include sm {
             height: 30vh;
@@ -57,7 +56,6 @@
 
     .moons {
         background-image: url('./sun.png');
-        z-index: 2;
 
         @include sm {
             height: 50vh;
